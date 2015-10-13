@@ -4,6 +4,7 @@ CloudBees Docker Hub/Registry Notification
 This plugin provides integration between 
 * Jenkins and Docker Hub
 * Jenkins and Docker Registry 2.0
+
 , utilizing a webhooks to trigger one (or more) Jenkins job(s).
 This allows you to implement continuous delivery pipelines based on Docker in Jenkins.
 
@@ -43,6 +44,7 @@ Payloads submitted by the hub:
 * [Payload from a public repository](src/test/resources/public-repository-payload.json).
 
 Payloads submitted by the registry:
+
 * [Payload from your own registry](/src/test/resources/private-registry-payload-1-repository.json).
 
 The plugin can be tested with
