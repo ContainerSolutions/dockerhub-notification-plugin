@@ -5,7 +5,7 @@ This plugin provides integration between
 * Jenkins and Docker Hub
 * Jenkins and Docker Registry 2.0
 
-, utilizing a webhooks to trigger one (or more) Jenkins job(s).
+, utilizing webhooks to trigger one (or more) Jenkins job(s).
 This allows you to implement continuous delivery pipelines based on Docker in Jenkins.
 
 Upon receiving a new image notification, Jenkins will trigger all jobs that have the Docker Hub/Registry trigger
